@@ -56,7 +56,16 @@ INSERT INTO ZUTAT (ZUTATENNR, BEZEICHNUNG, EINHEIT, NETTOPREIS, BESTAND, liefera
 (1103, 'Schweinefleisch', 'Gramm', 2.2, 250, 105, 200, 0, 27),
 (1201, 'Spaghetti', 'Packung', 1.0, 200, 102, 200, 40, 8),
 (1203, 'Penne', 'Packung', 1.1, 180, 102, 190, 39, 6),
-(1021, 'Erdnussbutter', 'g', 1.80, 150, 106, 588, 20, 25);
+(1021, 'Erdnussbutter', 'g', 1.80, 150, 106, 588, 20, 25),
+(1022, 'Rucola Pesto', 'Glas', 2.5, 20, 105, 150, 3.5, 3),
+(1023, 'Champignons', 'Packung', 1.2, 30, 104, 22, 3.3, 3.1),
+(1024, 'Hefe', 'Packung', 0.8, 10, 106, 80, 15, 3),
+(1025, 'Paprikapulver', 'g', 0.1, 200, 106, 20, 4, 1),
+(1026, 'Lachsfilet', 'Stück', 5.0, 15, 105, 367, 0, 24),
+(1027, 'Mango', 'Stück', 1.8, 30, 102, 60, 15, 1),
+(1028, 'Avocado', 'Stück', 2.5, 20, 102, 160, 8.5, 2),
+(1029, 'Honig', 'ml', 0.15, 200, 106, 304, 82, 0.3),
+(1030, 'Pilzsoße', 'Flasche', 2.0, 15, 105, 40, 6, 2);
 
 INSERT INTO BESTELLUNG (KUNDENNR, BESTELLDATUM, RECHNUNGSBETRAG) VALUES 
 (2001,'2020-07-01', 6.21),
