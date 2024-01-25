@@ -15,14 +15,14 @@ INSERT INTO LIEFERANT (LIEFERANTENNR, LIEFERANTENNAME, STRASSE, HAUSNR, PLZ, ORT
 (101, 'Bio-Hof Müller', 'Dorfstraße', '74', '24354', 'Weseby', '04354-9080', 'mueller@biohof.de'),
 (102, 'Obst-Hof Altes Land', 'Westerjork 74', '76', '21635', 'Jork', '04162-4523', 'info@biohof-altesland.de'),
 (103, 'Molkerei Henning', 'Molkereiwegkundekunde', '13','19217', 'Dechow', '038873-8976', 'info@molkerei-henning.de'),
- (104, 'Gemüsehandel Schmidt', 'Gemüsestraße', '12', '20095', 'Hamburg', '040-123456', 'info@gemuesehandel.de'),
-    (105, 'Fischspezialitäten Meier', 'Fischweg', '7', '20146', 'Hamburg', '040-987654', 'meier@fischspezialitaeten.de'),
-    (106, 'Backerei Müller', 'Bäckerstraße', '42', '20355', 'Hamburg', '040-567890', 'info@baeckerei-mueller.de');
+(104, 'Gemüsehandel Schmidt', 'Gemüsestraße', '12', '20095', 'Hamburg', '040-123456', 'info@gemuesehandel.de'),
+(105, 'Fischspezialitäten Meier', 'Fischweg', '7', '20146', 'Hamburg', '040-987654', 'meier@fischspezialitaeten.de'),
+(106, 'Backerei Müller', 'Bäckerstraße', '42', '20355', 'Hamburg', '040-567890', 'info@baeckerei-mueller.de');
 
 
 INSERT INTO ZUTAT (ZUTATENNR, BEZEICHNUNG, EINHEIT, NETTOPREIS, BESTAND, lieferant, KALORIEN, KOHLENHYDRATE, PROTEIN) VALUES 
-(1001,'Zucchini','Stück', 0.89, 100, 101,19,2,1.6),
-(1002,'Zwiebel','Stück', 0.15, 50, 101, 28, 4.9, 1.20),
+(1001, 'Zucchini','Stück', 0.89, 100, 101,19,2,1.6),
+(1002, 'Zwiebel','Stück', 0.15, 50, 101, 28, 4.9, 1.20),
 (1003, 'Tomate', 'Stück', 0.45, 50, 101, 18, 2.6, 1),
 (1004, 'Schalotte', 'Stück', 0.20, 500, 101, 25, 3.3, 1.5),
 (1005, 'Karotte', 'Stück', 0.30, 500, 101, 41, 10, 0.9),
@@ -44,14 +44,19 @@ INSERT INTO ZUTAT (ZUTATENNR, BEZEICHNUNG, EINHEIT, NETTOPREIS, BESTAND, liefera
 (7043, 'Gemüsebrühe', 'Würfel', 0.2, 4000, 101, 1, 0.5, 0.5),
 (6300, 'Kichererbsen', 'Dose', 1.0, 400, 103, 150, 21.2, 9),
 (1013, 'Paprika', 'Stück', 0.50, 100, 104, 31, 6, 1.3),
-    (1014, 'Spinat', 'Bund', 0.80, 20, 104, 23, 1.5, 2.9),
-    (1015, 'Cherrytomaten', 'Packung', 1.20, 30, 104, 15, 2.9, 1),
-    (1016, 'Rote Zwiebel', 'Stück', 0.30, 50, 104, 37, 7.9, 1.2),
-    (1017, 'Parmesan', 'g', 2.50, 200, 105, 431, 4.1, 38),
-    (1018, 'Olivenöl', 'ml', 0.15, 500, 105, 884, 0, 0),
-    (1019, 'Mehl', 'g', 0.40, 300, 106, 364, 72, 10),
-    (1020, 'Zucker', 'g', 0.25, 200, 106, 387, 99.8, 0),
-    (1021, 'Erdnussbutter', 'g', 1.80, 150, 106, 588, 20, 25);
+(1014, 'Spinat', 'Bund', 0.80, 20, 104, 23, 1.5, 2.9),
+(1015, 'Cherrytomaten', 'Packung', 1.20, 30, 104, 15, 2.9, 1),
+(1016, 'Rote Zwiebel', 'Stück', 0.30, 50, 104, 37, 7.9, 1.2),
+(1017, 'Parmesan', 'g', 2.50, 200, 105, 431, 4.1, 38),
+(1018, 'Olivenöl', 'ml', 0.15, 500, 105, 884, 0, 0),
+(1019, 'Mehl', 'g', 0.40, 300, 106, 364, 72, 10),
+(1020, 'Zucker', 'g', 0.25, 200, 106, 387, 99.8, 0),
+(1101, 'Rindfleisch', 'Gramm', 2.5, 300, 105, 250, 0, 25),
+(1102, 'Hähnchenbrust', 'Stück', 3.8, 100, 105, 165, 0, 31),
+(1103, 'Schweinefleisch', 'Gramm', 2.2, 250, 105, 200, 0, 27),
+(1201, 'Spaghetti', 'Packung', 1.0, 200, 102, 200, 40, 8),
+(1203, 'Penne', 'Packung', 1.1, 180, 102, 190, 39, 6),
+(1021, 'Erdnussbutter', 'g', 1.80, 150, 106, 588, 20, 25);
 
 INSERT INTO BESTELLUNG (KUNDENNR, BESTELLDATUM, RECHNUNGSBETRAG) VALUES 
 (2001,'2020-07-01', 6.21),
