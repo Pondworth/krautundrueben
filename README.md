@@ -1,3 +1,18 @@
+## List of tables:
+ - REZEPT
+ - KUNDE
+ - LIEFERANT
+ - ZUTAT
+ - BESTELLUNG
+ - BESTELLUNGZUTAT
+ - REZEPT
+ - BESTELLUNGREZEPT
+ - REZEPTZUTAT
+ - KATEGORIE
+ - ALLERGENE
+ - REZEPTKATEGORIE
+
+   
 ### Setzen Sie die folgenden Anforderungen mittels SQL-Abfragen um:
 
      
