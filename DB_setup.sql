@@ -55,10 +55,8 @@ CREATE TABLE BESTELLUNG (
 
 CREATE TABLE REZEPT (
     REZEPTNR        INTEGER AUTO_INCREMENT NOT NULL,
-    NAME         	VARCHAR (25),
-    ZUBEREITUNG     VARCHAR (125),
-    KATEGNR			INTEGER,
-    ALLERGNR		INTEGER,
+    NAME         	VARCHAR (125),
+    ZUBEREITUNG     VARCHAR (1250),
     PRIMARY KEY (REZEPTNR)
 );
 
@@ -172,3 +170,13 @@ INSERT INTO ALLERGENE  (ALLERGNR, ALLERGNAME) VALUES (63,'Gluten');
 INSERT INTO ALLERGENE  (ALLERGNR, ALLERGNAME) VALUES (64,'Tomate');
 INSERT INTO ALLERGENE  (ALLERGNR, ALLERGNAME) VALUES (65,'Zimt');
 
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Spaghetti Bolognese', 'Spaghetti kochen und Bolognese-Sauce zubereiten.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Hähnchen Caesar Salat', 'Hähnchen grillen, mit Salat und Caesar-Dressing vermengen.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Vegetarisches Pfannengericht', 'Gemüse in Sojasauce anbraten.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Pilzrisotto', 'Pilze anbraten und Risotto in Brühe kochen.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Gegrillter Lachs', 'Lachs marinieren und grillen, bis er gar ist.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Margherita Pizza', 'Pizzateig vorbereiten, Tomatensauce, Mozzarella und Basilikum hinzufügen.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Schokoladen-Brownies', 'Zutaten mischen und im Ofen backen.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Griechischer Salat', 'Tomaten, Gurken, Oliven und Feta-Käse vermengen.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Rindfleisch-Tacos', 'Rindfleisch würzen, kochen und Tacos mit Belag zubereiten.');
+INSERT INTO REZEPT (NAME, ZUBEREITUNG) VALUES ('Pasta Primavera', 'Nudeln kochen und mit verschiedenem angebratenem Gemüse vermengen.');
