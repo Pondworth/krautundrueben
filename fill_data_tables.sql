@@ -1,6 +1,6 @@
 USE krautundrueben;
 
-INSERT INTO KUNDE (KUNDENNR, NACHNAME, VORNAME, GEBURTSDATUM, STRASSE, HAUSNR, PLZ, ORT, TELEFON, EMAIL) VALUES 
+INSERT INTO KUNDE (KUNDENR, NACHNAME, VORNAME, GEBURTSDATUM, STRASSE, HAUSNR, PLZ, ORT, TELEFON, EMAIL) VALUES 
 (2001, 'Wellensteyn','Kira','1990-05-05','Eppendorfer Landstrasse', '104', '20249','Hamburg','040/443322','k.wellensteyn@yahoo.de'),
 (2002, 'Foede','Dorothea','2000-03-24','Ohmstraße', '23', '22765','Hamburg','040/543822','d.foede@web.de'),
 (2003, 'Leberer','Sigrid','1989-09-21','Bilser Berg', '6', '20459','Hamburg','0175/1234588','sigrid@leberer.de'),
@@ -11,7 +11,7 @@ INSERT INTO KUNDE (KUNDENNR, NACHNAME, VORNAME, GEBURTSDATUM, STRASSE, HAUSNR, P
 (2008, 'Haessig','Jean-Marc','1982-08-30','Neugrabener Bahnhofstraße', '30', '21149','Hamburg','0178-67013390','jm@haessig.de'),
 (2009, 'Urocki','Eric','1999-12-04','Elbchaussee', '228', '22605','Hamburg','0152-96701390','urocki@outlook.de');
 
-INSERT INTO LIEFERANT (LIEFERANTENNR, LIEFERANTENNAME, STRASSE, HAUSNR, PLZ, ORT, TELEFON, EMAIL) values 
+INSERT INTO LIEFERANT (LIEFERANTNR, LIEFERANT_NAME, STRASSE, HAUSNR, PLZ, ORT, TELEFON, EMAIL) values 
 (101, 'Bio-Hof Müller', 'Dorfstraße', '74', '24354', 'Weseby', '04354-9080', 'mueller@biohof.de'),
 (102, 'Obst-Hof Altes Land', 'Westerjork 74', '76', '21635', 'Jork', '04162-4523', 'info@biohof-altesland.de'),
 (103, 'Molkerei Henning', 'Molkereiwegkundekunde', '13','19217', 'Dechow', '038873-8976', 'info@molkerei-henning.de'),
@@ -20,7 +20,7 @@ INSERT INTO LIEFERANT (LIEFERANTENNR, LIEFERANTENNAME, STRASSE, HAUSNR, PLZ, ORT
 (106, 'Backerei Müller', 'Bäckerstraße', '42', '20355', 'Hamburg', '040-567890', 'info@baeckerei-mueller.de');
 
 
-INSERT INTO ZUTAT (ZUTATENNR, BEZEICHNUNG, EINHEIT, NETTOPREIS, BESTAND, lieferant, KALORIEN, KOHLENHYDRATE, PROTEIN) VALUES 
+INSERT INTO ZUTAT (ZUTATNR, ZUTAT_NAME, EINHEIT, NETTOPREIS, BESTAND, LIEFERANTNR, KALORIEN, KOHLENHYDRATE, PROTEIN) VALUES 
 (1001, 'Zucchini','Stück', 0.89, 100, 101,19,2,1.6),
 (1002, 'Zwiebel','Stück', 0.15, 50, 101, 28, 4.9, 1.20),
 (1003, 'Tomate', 'Stück', 0.45, 50, 101, 18, 2.6, 1),
@@ -67,7 +67,7 @@ INSERT INTO ZUTAT (ZUTATENNR, BEZEICHNUNG, EINHEIT, NETTOPREIS, BESTAND, liefera
 (1029, 'Honig', 'ml', 0.15, 200, 106, 304, 82, 0.3),
 (1030, 'Pilzsoße', 'Flasche', 2.0, 15, 105, 40, 6, 2);
 
-INSERT INTO BESTELLUNG (KUNDENNR, BESTELLDATUM, RECHNUNGSBETRAG) VALUES 
+INSERT INTO BESTELLUNG (KUNDENR, BESTELLDATUM, RECHNUNGSBETRAG) VALUES 
 (2001,'2020-07-01', 6.21),
 (2002,'2020-07-08', 32.96),
 (2003,'2020-08-01',24.08),
@@ -81,7 +81,7 @@ INSERT INTO BESTELLUNG (KUNDENNR, BESTELLDATUM, RECHNUNGSBETRAG) VALUES
 (2005,'2020-08-12', 8.67),
 (2003,'2020-08-13', 20.87);
 
-INSERT INTO KATEGORIE (KATEGNR, KATEGNAME) VALUES 
+INSERT INTO ERNAEHRUNGSKATEGORIE (KATEGORIENR, KATEGORIE_NAME) VALUES 
 (50,'Vegetarisch'),
 (51,'Vegan'),
 (52,'Frutarisch'),
@@ -96,7 +96,8 @@ INSERT INTO KATEGORIE (KATEGNR, KATEGNAME) VALUES
 (61,'Fleisch'),
 (62,'Fisch');
 
-INSERT INTO ALLERGENE (ALLERGNR, ALLERGNAME) VALUES (60,'Lactose'),
+INSERT INTO ALLERGENE (ALLERGENNR , ALLERGEN_NAME) VALUES 
+(60,'Lactose'),
 (61,'Ei'),
 (62,'Erdnuss'),
 (63,'Gluten'),
@@ -114,7 +115,7 @@ INSERT INTO ALLERGENE (ALLERGNR, ALLERGNAME) VALUES (60,'Lactose'),
 (75,'Soja'),
 (76,'Weichtiere');
 
-INSERT INTO REZEPT (NAME, ZUBEREITUNG) 
+INSERT INTO REZEPT (REZEPT_NAME, ZUBEREITUNG) 
 VALUES 
 ('Spaghetti Bolognese', 'Spaghetti kochen und Bolognese-Sauce zubereiten.'),
 ('Hähnchen Caesar Salat', 'Hähnchen grillen, mit Salat und Caesar-Dressing vermengen.'),
