@@ -1,0 +1,10 @@
+-- Auswahl aller Rezepte, die weniger als fünf Zutaten enthalten
+
+SELECT r.REZEPTNR, r.REZEPT_NAME, COUNT(rz.ZUTATNR)
+FROM REZEPT r 
+INNER JOIN REZEPTZUTAT rz
+ON r.REZEPTNR =rz.REZEPTNR 
+INNER JOIN ZUTAT z 
+ON z.ZUTATNR = rz.ZUTATNR 
+GROUP BY r.REZEPTNR
+HAVING COUNT(rz.ZUTATNR) <= 5;
