@@ -46,7 +46,7 @@ VALUES
 (1004, 1, 1),   -- Schalotte
 (1009, 1, 1),   -- Knoblauch
 (1201, 1, 1),   -- Spaghetti
-(1101, 1, 500), -- Rindfleisch
+(1101, 1, 1), -- Rindfleisch
 (1023, 1, 1),   -- Champignons
 
 -- Hähnchen Caesar Salat (Recipe 2)
@@ -100,8 +100,8 @@ VALUES
 (1030, 9, 1),   -- Pilzsoße
 
 -- Pasta Primavera (Recipe 10)
-(1005, 10, 100), -- Karotte
-(1006, 10, 100), -- Kartoffel
+(1005, 10, 10), -- Karotte
+(1006, 10, 10), -- Kartoffel
 (1007, 10, 1),   -- Rucola
 (1027, 10, 1);   -- Mango
 
