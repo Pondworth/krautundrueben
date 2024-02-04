@@ -1,0 +1,44 @@
+DEUTSCH 
+DSGVO Artikel 15 (Auszüge)
+1. Die betroffene Person hat das Recht, vom Verantwortlichen eine Bestätigung darüber zu erhalten, ob personenbezogene Daten, die sie betreffen, verarbeitet werden, und falls dies der Fall ist, 
+das Recht auf Auskunft über diese personenbezogenen Daten sowie auf weitere Informationen, wie zum Beispiel den Verarbeitungszweck, die Kategorien der verarbeiteten Daten, die Empfänger oder Kategorien von Empfängern, 
+denen die Daten offengelegt wurden, usw.
+
+Der Verantwortliche stellt eine Kopie der personenbezogenen Daten zur Verfügung, die Gegenstand der Verarbeitung sind. Für weitere Kopien, die von der betroffenen Person angefordert werden, 
+kann der Verantwortliche eine angemessene Gebühr basierend auf den Verwaltungskosten verlangen.
+
+Das Recht auf Auskunft kann die Rechte und Freiheiten anderer Personen beeinträchtigen. Aus diesem Grund kann der Verantwortliche in bestimmten Fällen davon absehen, 
+Informationen bereitzustellen oder nur eingeschränkt Auskunft zu geben.
+
+Der Verantwortliche sollte angemessene Maßnahmen treffen, um der betroffenen Person die Ausübung ihrer Rechte zu erleichtern, einschließlich der Bereitstellung von Online-Formularen oder anderer Mittel, 
+um Auskunftsersuchen elektronisch zu stellen.
+
+Das Auskunftsrecht nach Artikel 15 der DSGVO ermöglicht es den Personen, mehr Transparenz darüber zu erhalten, wie ihre personenbezogenen Daten verarbeitet werden, 
+und es ihnen ermöglicht, Kontrolle über ihre Daten zu behalten.
+
+EGNLISCH
+The data subject shall have the right to obtain from the customer confirmation as to whether or not personal data concerning them are being processed, and, where that is the case, 
+access to the personal data and the following information: the purposes of the processing, the categories of personal data concerned, 
+the recipients or categories of recipient to whom the personal data have been or will be disclosed, etc.
+
+The customer shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the customer may charge a reasonable fee based on administrative costs.
+
+The right to access may be restricted if it could adversely affect the rights and freedoms of others. Therefore, the customer may choose not to provide information or only provide limited access in certain cases.
+
+The customer shall take reasonable measures to facilitate the exercise of data subjects' rights, including the provision of online forms or other means to submit access requests electronically.
+
+Article 15 of the GDPR grants individuals the right to obtain information about how their personal data is being processed, enabling them to have more transparency and control over their data.
+
+
+Mögliche Lösung: 
+Der Kunde kann über die Supportmöglichkeit der Website (Kontaktformular, Support-Center, Telefonnummer etc) ganz einfach beantragen das er Auskünfte darüber erhält welche Daten von ihm gespeichert sind, 
+diese kann der Supportservice entweder direkt übergeben, oder wenn ein externer Service dafür beauftragt wurde, Support zu leisten, so kann dieser den Auftrag dafür dann an das Entwicklungsteam weiter leiten. 
+Bei einer Löschung ist dies einfacher, per Button (oder Hyperlink) im Profilmenü Names "Löschen" kann der Kunde per Klick sein Profil löschen und damit die Personenbezogenen Daten. Meist geht dies einher, 
+das eine 2 Wöchige "Bedenktzeit" eingeräumt wird, wo der Kunde sich umentscheiden kann. Wird dies nicht getan, so wird die Löschung vorgenommen und das Kundenkonto ist nicht mehr existent.
+
+possible sulution: 
+The customer can easily request information about which data is stored about them via the support options available on the website (such as contact form, support center, telephone number, etc.). 
+The support service can either provide this information directly or, if an external service has been commissioned to provide support, that service can then forward the request to the development team.
+
+For deletion, it's simpler. A button (or hyperlink) labeled "Delete" in the profile menu allows the customer to delete their profile and thus their personal data with just a click. 
+This typically comes with a 2-week "cooling-off period" during which the customer can change their mind. If no action is taken within this period, the deletion is carried out, and the customer account ceases to exist.
