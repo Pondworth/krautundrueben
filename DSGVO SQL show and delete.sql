@@ -1,10 +1,10 @@
-* Auswahl Anzeige eines Kunden per Nachname
+-- Auswahl Anzeige eines Kunden per Nachname
 
 SELECT * 
-FROM Kunde 
-WHERE nachname = "Mustermann";
+FROM KUNDE 
+WHERE NACHNAME = "Mustermann";
 
-*Löschen eines Kunden per Kundennummer
+-- Löschen eines Kunden per Kundennummer
 
-DELETE FROM Kunde
-WHERE Kundenr = '2011';
+DELETE FROM KUNDE
+WHERE KUNDENR = '2011';
