@@ -9,7 +9,7 @@ INSERT INTO KUNDE (KUNDENR, NACHNAME, VORNAME, GEBURTSDATUM, STRASSE, HAUSNR, PL
 (2006, 'Maurer','Belinda','1978-09-09','Grotelertwiete', '4a', '21075','Hamburg','040/332189','belinda1978@yahoo.de'),
 (2007, 'Gessert','Armin','1978-01-29','Küstersweg', '3', '21079','Hamburg','040/67890','armin@gessert.de'),
 (2008, 'Haessig','Jean-Marc','1982-08-30','Neugrabener Bahnhofstraße', '30', '21149','Hamburg','0178-67013390','jm@haessig.de'),
-(2009, 'Urocki','Eric','1999-12-04','Elbchaussee', '228', '22605','Hamburg','0152-96701390','urocki@outlook.de');
+(2009, 'Urocki','Eric','1999-12-04','Elbchaussee', '228', '22605','Hamburg','0152-96701390','urocki@outlook.de'),
 (2010, 'Mustermann', 'Max', '1990-01-01', 'Musterstraße', '123', '12345', 'Musterstadt', '123456789', 'max@mustermann@example.com');
 
 INSERT INTO LIEFERANT (LIEFERANTNR, LIEFERANT_NAME, STRASSE, HAUSNR, PLZ, ORT, TELEFON, EMAIL) values 
