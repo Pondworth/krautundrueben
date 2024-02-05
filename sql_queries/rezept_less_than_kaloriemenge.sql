@@ -1,0 +1,10 @@
+-- Auswahl aller Rezepte, die eine bestimmte Kalorienmenge nicht überschreiten
+SELECT REZEPT_NAME
+, SUM(z.KALORIEN * rz.MENGE) as REZEPTKALORIE
+FROM REZEPT r 
+INNER JOIN REZEPTZUTAT rz
+ON r.REZEPTNR  = rz.REZEPTNR 
+INNER JOIN ZUTAT z 
+ON z.ZUTATNR = rz.ZUTATNR 
+GROUP BY rz.REZEPTNR 
+HAVING REZEPTKALORIE<700
